@@ -21,7 +21,7 @@ class TravelsTableSeeder extends Seeder
             'SPA'
         ];
 
-        for($i = 0; $i >=3; $i++) {
+        for($i = 0; $i <=4; $i++) {
             // creo una nuoa riga:
             $new_travel = new Travel();
             // popolo le righe:
