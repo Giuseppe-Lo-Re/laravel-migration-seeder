@@ -8,7 +8,6 @@
     @foreach ($travels as $travel)
         <li>
             Destinazione: {{ $travel->destination }}
-            
         </li>
 
         <li>
